@@ -1,0 +1,6 @@
+[2022-04-05 11:13:14.611] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:13:16.375] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-05 11:13:16.379] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-05 11:13:16.445] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:13:24.053] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 11:13:25.549] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW

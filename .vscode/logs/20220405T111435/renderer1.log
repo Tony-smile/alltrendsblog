@@ -1,0 +1,8 @@
+[2022-04-05 11:14:46.926] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:14:49.663] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-05 11:14:49.668] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-05 11:14:49.925] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:15:01.723] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:15:07.543] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 11:15:09.339] [renderer1] [info] Not activating extension 'Dart-Code.dart-code': Timed out while searching for 'workspaceContains' pattern */pubspec.yaml,*/*/pubspec.yaml,*.dart,*/*.dart,*/*/*.dart
+[2022-04-05 11:15:13.024] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 100% of 5258.145ms, saved PROFILE here: 'file:///tmp/exthost-f4dd3f.cpuprofile' [{"id":"gc","total":21177,"percentage":0},{"id":"ritwickdey.LiveServer","total":5235626,"percentage":100}]

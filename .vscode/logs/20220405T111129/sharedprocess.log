@@ -1,0 +1,4 @@
+[2022-04-05 11:11:53.569] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-04-05 11:11:59.685] [sharedprocess] [info] Starting worker process with pid 10939 (type: fileWatcher, window: 1).
+[2022-04-05 11:12:03.203] [sharedprocess] [info] Deleted from disk dart-code.dart-code /root/.vscode/extensions/dart-code.dart-code-3.22.0
+[2022-04-05 11:12:04.039] [sharedprocess] [info] Deleted from disk formulahendry.code-runner /root/.vscode/extensions/formulahendry.code-runner-0.11.3

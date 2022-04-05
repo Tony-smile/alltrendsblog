@@ -1,0 +1,6 @@
+[2022-04-05 11:11:47.625] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:11:48.457] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:11:49.571] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-05 11:11:49.579] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-05 11:12:04.068] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 11:12:09.890] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 99% of 5368.285ms, saved PROFILE here: 'file:///tmp/exthost-57b506.cpuprofile' [{"id":"gc","total":56266,"percentage":1},{"id":"ritwickdey.LiveServer","total":5310448,"percentage":99}]

@@ -1,0 +1,29 @@
+[2022-04-05 11:17:21.293] [renderer1] [error] Extension host (LocalProcess) terminated unexpectedly. No extensions were activated.
+[2022-04-05 11:17:21.299] [renderer1] [info] Automatically restarting the extension host.
+[2022-04-05 11:17:21.472] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:17:23.130] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-05 11:17:23.135] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-05 11:17:25.738] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 11:17:42.692] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 11:17:43.426] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 11:17:43.737] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.emmet' took 44% of 1192.582ms, saved PROFILE here: 'file:///tmp/exthost-3dae70.cpuprofile' [{"id":"formulahendry.code-runner","total":94600,"percentage":8},{"id":"gc","total":89006,"percentage":7},{"id":"program","total":8238,"percentage":1},{"id":"ritwickdey.LiveServer","total":43445,"percentage":4},{"id":"self","total":214142,"percentage":18},{"id":"vscode.emmet","total":520618,"percentage":44},{"id":"vscode.git","total":130199,"percentage":11},{"id":"vscode.merge-conflict","total":89988,"percentage":8}]
+[2022-04-05 11:18:21.121] [renderer1] [error] Error received from starting extension host (kind: LocalProcess)
+[2022-04-05 11:18:21.125] [renderer1] [error] The local extension host took longer than 60s to connect.
+[2022-04-05 11:29:12.375] [renderer1] [error] ["Unknown (FileSystemError): Failed to move 'storage.json' to the trash","    at o (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:28:4146)","    at P.delete (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:31:52470)"]
+[2022-04-05 11:29:12.434] [renderer1] [error] Failed to move 'storage.json' to the trash: Unknown (FileSystemError): Failed to move 'storage.json' to the trash
+    at o (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:28:4146)
+    at P.delete (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:31:52470)
+[2022-04-05 11:30:15.203] [renderer1] [error] [Yggdrasill-7C9.axios-snippets]: Unknown language in `contributes.axios-snippets.language`. Provided value: vue
+[2022-04-05 11:39:19.915] [renderer1] [error] Unknown or unsupported transport “disabled” for address “disabled:”: Error: Unknown or unsupported transport “disabled” for address “disabled:”
+[2022-04-05 11:39:34.164] [renderer1] [error] Unknown or unsupported transport “disabled” for address “disabled:”: Error: Unknown or unsupported transport “disabled” for address “disabled:”
+[2022-04-05 12:54:46.023] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 12:54:50.559] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 13:03:04.239] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 13:03:04.706] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 13:03:05.094] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.html-language-features' took 53% of 930.887ms, saved PROFILE here: 'file:///tmp/exthost-282262.cpuprofile' [{"id":"gc","total":81952,"percentage":9},{"id":"program","total":2363,"percentage":0},{"id":"self","total":242240,"percentage":26},{"id":"vscode.emmet","total":62321,"percentage":7},{"id":"vscode.html-language-features","total":493285,"percentage":53},{"id":"vscode.json-language-features","total":7104,"percentage":1},{"id":"vscode.merge-conflict","total":28144,"percentage":3},{"id":"vscode.npm","total":343,"percentage":0},{"id":"vscode.typescript-language-features","total":11801,"percentage":1}]
+[2022-04-05 13:27:00.252] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 13:27:03.029] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 14:38:52.034] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 14:38:54.564] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 14:39:29.887] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 14:39:30.227] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session

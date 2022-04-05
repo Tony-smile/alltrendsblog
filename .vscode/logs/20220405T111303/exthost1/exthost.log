@@ -1,0 +1,13 @@
+[2022-04-05 11:13:17.611] [exthost] [info] Extension host with pid 11259 started
+[2022-04-05 11:13:18.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-05 11:13:18.913] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-05 11:13:18.950] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-05 11:13:19.054] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-05 11:13:19.159] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-05 11:13:19.451] [exthost] [info] Eager extensions activated
+[2022-04-05 11:13:19.536] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 11:13:19.598] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 11:13:19.637] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 11:13:20.225] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 11:13:54.688] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-05 11:13:54.732] [exthost] [info] Extension host with pid 11259 exiting with code 0

@@ -1,0 +1,13 @@
+[2022-04-05 11:14:51.397] [exthost] [info] Extension host with pid 11986 started
+[2022-04-05 11:14:51.402] [exthost] [info] Skipping acquiring lock for /root/Desktop/projects/nodejsbegins/.vscode/User/workspaceStorage/0cb8c77a4e54ead80d12a0cb97c7c639.
+[2022-04-05 11:14:53.037] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-05 11:14:53.167] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-04-05 11:14:53.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-05 11:14:53.296] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-04-05 11:14:53.678] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-05 11:14:54.910] [exthost] [info] Eager extensions activated
+[2022-04-05 11:14:55.002] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 11:14:55.113] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 11:15:02.385] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-04-05 11:15:02.567] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 11:15:03.828] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
