@@ -27,3 +27,6 @@
 [2022-04-05 14:38:54.564] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
 [2022-04-05 14:39:29.887] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
 [2022-04-05 14:39:30.227] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 15:52:08.830] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 15:52:10.503] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 17:02:17.673] [renderer1] [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory, join.closeStorage
