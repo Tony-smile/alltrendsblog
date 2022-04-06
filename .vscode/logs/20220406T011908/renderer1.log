@@ -1,0 +1,10 @@
+[2022-04-06 01:19:24.515] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-06 01:19:26.531] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-06 01:19:26.711] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-06 01:19:26.733] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-06 01:19:31.879] [renderer1] [error] [Yggdrasill-7C9.axios-snippets]: Unknown language in `contributes.axios-snippets.language`. Provided value: vue
+[2022-04-06 01:19:42.208] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-06 01:19:43.720] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-06 01:19:44.495] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 76% of 3677.205ms, saved PROFILE here: 'file:///tmp/exthost-ce4aae.cpuprofile' [{"id":"gc","total":1199,"percentage":0},{"id":"program","total":2110,"percentage":0},{"id":"ritwickdey.LiveServer","total":2796904,"percentage":76},{"id":"self","total":798779,"percentage":22},{"id":"vscode.debug-auto-launch","total":6304,"percentage":0},{"id":"vscode.git","total":52450,"percentage":1},{"id":"vscode.html-language-features","total":10562,"percentage":0},{"id":"vscode.npm","total":5365,"percentage":0}]
+[2022-04-06 01:21:00.553] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-06 01:21:01.701] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
