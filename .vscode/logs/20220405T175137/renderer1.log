@@ -1,0 +1,83 @@
+[2022-04-05 17:51:51.703] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 17:51:55.731] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 17:51:56.996] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-05 17:51:56.998] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-05 17:52:01.880] [renderer1] [error] [Yggdrasill-7C9.axios-snippets]: Unknown language in `contributes.axios-snippets.language`. Provided value: vue
+[2022-04-05 17:52:26.374] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 17:52:34.407] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 17:52:38.119] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 100% of 9143.85ms, saved PROFILE here: 'file:///tmp/exthost-b28446.cpuprofile' [{"id":"gc","total":3568,"percentage":0},{"id":"ritwickdey.LiveServer","total":9132642,"percentage":100}]
+[2022-04-05 18:15:02.845] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 18:15:07.306] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 18:19:46.906] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 18:19:47.178] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 18:19:47.601] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.typescript-language-features' took 49% of 620.709ms, saved PROFILE here: 'file:///tmp/exthost-371511.cpuprofile' [{"id":"gc","total":9817,"percentage":2},{"id":"program","total":658,"percentage":0},{"id":"self","total":110742,"percentage":18},{"id":"vscode.emmet","total":150345,"percentage":24},{"id":"vscode.git","total":14293,"percentage":2},{"id":"vscode.html-language-features","total":26736,"percentage":4},{"id":"vscode.merge-conflict","total":1580,"percentage":0},{"id":"vscode.typescript-language-features","total":305670,"percentage":49}]
+[2022-04-05 19:48:25.775] [renderer1] [error] Cannot read properties of undefined (reading 'find'): TypeError: Cannot read properties of undefined (reading 'find')
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:187362)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at X.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:108946)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:132923
+	at Q._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:123100)
+	at Q.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:132899)
+	at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13826)
+	at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13510)
+	at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12119)
+	at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10841)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8947
+	at u.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19034)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34275
+	at u.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19034)
+	at o._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23615)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21149
+	at u.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at v.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15865)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14995
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13797)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-04-05 20:15:07.133] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 20:15:11.678] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 20:42:12.054] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 20:42:12.673] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 20:50:56.452] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 20:50:56.885] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 20:55:57.859] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 20:55:58.398] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 20:55:58.803] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.html-language-features' took 96% of 573.246ms, saved PROFILE here: 'file:///tmp/exthost-39d2ef.cpuprofile' [{"id":"self","total":21229,"percentage":4},{"id":"vscode.html-language-features","total":549423,"percentage":96}]
+[2022-04-05 21:34:22.700] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 21:34:24.699] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 21:52:59.711] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 21:53:00.508] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 21:53:01.558] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 40% of 1452.862ms, saved PROFILE here: 'file:///tmp/exthost-0c1399.cpuprofile' [{"id":"gc","total":14999,"percentage":1},{"id":"program","total":6704,"percentage":0},{"id":"ritwickdey.LiveServer","total":574133,"percentage":40},{"id":"self","total":547857,"percentage":38},{"id":"vscode.emmet","total":217190,"percentage":15},{"id":"vscode.git","total":7272,"percentage":1},{"id":"vscode.html-language-features","total":42423,"percentage":3},{"id":"vscode.merge-conflict","total":1830,"percentage":0},{"id":"vscode.npm","total":279,"percentage":0},{"id":"vscode.typescript-language-features","total":30373,"percentage":2}]
+[2022-04-05 22:03:39.393] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 22:03:40.125] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 22:03:40.943] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.emmet' took 43% of 1471.971ms, saved PROFILE here: 'file:///tmp/exthost-57536e.cpuprofile' [{"id":"gc","total":324793,"percentage":22},{"id":"program","total":986,"percentage":0},{"id":"self","total":352036,"percentage":24},{"id":"vscode.css-language-features","total":96601,"percentage":7},{"id":"vscode.emmet","total":636331,"percentage":43},{"id":"vscode.git","total":13471,"percentage":1},{"id":"vscode.html-language-features","total":4377,"percentage":0},{"id":"vscode.merge-conflict","total":13044,"percentage":1},{"id":"vscode.npm","total":973,"percentage":0},{"id":"vscode.typescript-language-features","total":27536,"percentage":2}]
+[2022-04-05 22:14:20.049] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-05 22:14:21.453] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-05 22:17:44.877] [renderer1] [error] Error: File not found
+    at g.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:112725)
+    at async g.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:112400)
+    at async i.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:26823)
+    at async i.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:25196)
+    at async i.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:24822)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2842:17260
+    at async C.doOpenCodeEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1346:31316)
+    at async S.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:62491)
+    at async s.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:63952)
+[2022-04-05 22:18:02.985] [renderer1] [error] Error: File not found
+    at g.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:112725)
+    at async g.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:112400)
+    at async i.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:26823)
+    at async i.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:25196)
+    at async i.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:24822)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2842:17260
+    at async C.doOpenCodeEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1346:31316)
+    at async S.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:62491)
+    at async s.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:63952)

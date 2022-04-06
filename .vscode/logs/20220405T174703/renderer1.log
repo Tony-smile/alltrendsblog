@@ -1,0 +1,5 @@
+[2022-04-05 17:47:15.868] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 17:47:17.652] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-05 17:47:17.656] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-05 17:47:19.582] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-05 17:47:24.969] [renderer1] [error] [Yggdrasill-7C9.axios-snippets]: Unknown language in `contributes.axios-snippets.language`. Provided value: vue

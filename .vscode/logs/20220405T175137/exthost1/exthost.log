@@ -1,0 +1,50 @@
+[2022-04-05 17:51:59.745] [exthost] [info] Extension host with pid 6742 started
+[2022-04-05 17:51:59.746] [exthost] [info] Skipping acquiring lock for /root/Desktop/projects/nodejsbegins/.vscode/User/workspaceStorage/0cb8c77a4e54ead80d12a0cb97c7c639.
+[2022-04-05 17:52:01.576] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-04-05 17:52:01.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-05 17:52:01.864] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-05 17:52:01.923] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-05 17:52:02.068] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-04-05 17:52:06.315] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-05 17:52:07.150] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-05 17:52:08.583] [exthost] [info] Eager extensions activated
+[2022-04-05 17:52:09.352] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 17:52:09.730] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 17:52:09.865] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 17:52:13.496] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 17:53:17.659] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-04-05 19:10:21.455] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-04-05 19:40:44.773] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+[2022-04-05 19:48:25.043] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-04-05 19:48:25.099] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'find')
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:187362)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at X.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:108946)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:132923
+	at Q._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:123100)
+	at Q.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:132899)
+	at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13826)
+	at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13510)
+	at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12119)
+	at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10841)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8947
+	at u.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19034)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34275
+	at u.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19034)
+	at o._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23615)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21149
+	at u.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at v.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at v.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15865)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14995
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13797)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-04-05 20:06:05.723] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
