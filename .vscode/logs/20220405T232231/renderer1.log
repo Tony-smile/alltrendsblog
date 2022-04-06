@@ -6,3 +6,5 @@
 [2022-04-05 23:23:00.133] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
 [2022-04-05 23:23:02.338] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
 [2022-04-05 23:23:03.190] [renderer1] [warning] UNRESPONSIVE extension host: 'ritwickdey.LiveServer' took 97% of 2262.636ms, saved PROFILE here: 'file:///tmp/exthost-693632.cpuprofile' [{"id":"program","total":204,"percentage":0},{"id":"ritwickdey.LiveServer","total":2186387,"percentage":97},{"id":"self","total":33697,"percentage":1},{"id":"vscode.git","total":38973,"percentage":2}]
+[2022-04-06 00:15:23.109] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-06 00:15:24.245] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
