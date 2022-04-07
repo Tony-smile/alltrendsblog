@@ -1,5 +1,7 @@
 import express from 'express'
 import ejs from 'ejs'
+import dotenv from 'dotenv'
+dotenv.config()
 import mongoose from 'mongoose'
 import bodyParser from 'body-parser'
 import fileUpload from 'express-fileupload'
@@ -26,7 +28,8 @@ import logoutController from './controllers/logout.js'
 
 
 const app = express()
-mongoose.connect('mongodb+srv://Tonysmile:iam.123.purple@cluster0.2jfa4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true })
+
+mongoose.connect(process.env.MONGO_DB_URL, { useNewUrlParser: true })
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static('public'))
